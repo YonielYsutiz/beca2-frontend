@@ -1,0 +1,32 @@
+h1 {
+  text-align: center; /* Centrar el texto horizontalmente */
+  margin-bottom: 50px; /* Separar del card */
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Ajusta el card al centro verticalmente */
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#form .MuiTextField-root {
+  margin-bottom: 16px; /* Espacio entre los campos */
+  width: 300px; /* Ajusta el ancho de los campos */
+}
+
+#form .MuiStack-root {
+  margin-top: 20px; /* Margen superior antes de los botones */
+}
+
+#form .MuiButton-root {
+  width: 150px; /* Ancho de los botones */
+}
